@@ -1,0 +1,22 @@
+{
+  "name": "capturalinks",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js ./test",
+    "cli": "node cli.js ./arquivos/texto1.md"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "git": "^0.1.5",
+    "node-fetch": "^3.2.8"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
